@@ -12,8 +12,8 @@ pipeline {
         stage('Run') {
             steps {
                 // Run your Java application
-                bat 'javac Jenkinsfile.java' // Replace with your actual Java file name
-                bat 'java Jenkinsfile'
+                bat 'javac Nothing.java' // Replace with your actual Java file name
+                bat 'java Nothing'
             }
         }
     }
