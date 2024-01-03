@@ -16,7 +16,7 @@ pipeline {
                 bat 'java Nothing'
 
 
-                bat 'py Python.py'
+               bat 'py Python.py'
             }
         }
     }
