@@ -14,6 +14,9 @@ pipeline {
                 // Run your Java application
                 bat 'javac Nothing.java' // Replace with your actual Java file name
                 bat 'java Nothing'
+
+
+                bat 'python Python.py'
             }
         }
     }
